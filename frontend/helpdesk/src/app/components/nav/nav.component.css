@@ -1,0 +1,21 @@
+.container{
+    height: 100%;
+}
+.sidenv{
+    width: 13rem;
+}
+.item-menu:hover{
+    background-color: white;
+    color: #303030;
+    transition: 0.75s;
+}
+.menu{
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: #444444;
+}
+.menu:hover{
+    background-color: white;
+    color: #444444;
+    transition: 1s;
+}
