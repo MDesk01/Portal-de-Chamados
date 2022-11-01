@@ -1,0 +1,39 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.container {
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn-entrar {
+    width: 100%;
+}
+
+.btn-entrar:hover {
+    background-color: white;
+    color: #404040;
+    transition: all 0.75s ease 0s;
+    translate: 3y;
+    transform: translateY(-10%);
+}
