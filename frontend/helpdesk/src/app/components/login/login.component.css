@@ -34,6 +34,5 @@
     background-color: white;
     color: #404040;
     transition: all 0.75s ease 0s;
-    translate: 3y;
     transform: translateY(-10%);
 }

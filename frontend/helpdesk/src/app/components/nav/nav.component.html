@@ -1,3 +1,11 @@
+<!--AUTOR: MATEUS AUGUSTO SOUZA AZEVEDO-->
+<!--DATA DE INÍCIO DO PROJETO: 28/10/2022 -->
+<mat-toolbar class="toolbar-menu mat-elevation-z8">
+  <button mat-raised-button (click)="drawer.toggle()" class="menu mat-elevation-z8">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-toolbar style="background-color: transparent;"></mat-toolbar>
 <mat-drawer-container class="container" autosize>
   <mat-drawer #drawer class="sidenav" mode="side">
     <mat-nav-list class="nav-list">
@@ -10,8 +18,8 @@
       <a mat-list-item routerLink="/">
         <mat-icon>person</mat-icon>&nbsp;Clientes
       </a>
-      <a mat-list-item routerLink="/">
-        <mat-icon>live_help</mat-icon>&nbsp;Ajuda
+      <a mat-list-item routerLink="sobre">
+        <mat-icon>live_help</mat-icon>&nbsp;Sobre
       </a>
       <a mat-list-item routerLink="/">
         <mat-icon>logout</mat-icon>&nbsp;Logout
@@ -19,11 +27,6 @@
     </mat-nav-list>
   </mat-drawer>
   <div class="sidenav-content">
-    <mat-toolbar>
-      <button mat-raised-button (click)="drawer.toggle()" class="menu mat-elevation-z8">
-        <mat-icon>menu</mat-icon>
-      </button>
-    </mat-toolbar>
     <br>
     <div class="router-outlet-container">
       <router-outlet></router-outlet>

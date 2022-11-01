@@ -47,6 +47,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 import { LoginComponent } from './components/login/login.component';
+import { SobreComponent } from './components/sobre/sobre.component';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { LoginComponent } from './components/login/login.component';
     NavComponent,
     HomeComponent,
     TecnicoListComponent,
-    LoginComponent
+    LoginComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,

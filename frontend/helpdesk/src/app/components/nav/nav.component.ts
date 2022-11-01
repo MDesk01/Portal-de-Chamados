@@ -1,3 +1,5 @@
+/*<!--AUTOR: MATEUS AUGUSTO SOUZA AZEVEDO-->
+<!--DATA DE INÍCIO DO PROJETO: 28/10/2022 -->*/
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
