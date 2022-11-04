@@ -48,6 +48,7 @@ import { HomeComponent } from './components/home/home.component';
 import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 import { LoginComponent } from './components/login/login.component';
 import { SobreComponent } from './components/sobre/sobre.component';
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -100,7 +101,8 @@ import { SobreComponent } from './components/sobre/sobre.component';
     FormsModule,
     HttpClientModule,
     FlexLayoutModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ToastrModule.forRoot({ timeOut:4000, closeButton: true, progressBar: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
