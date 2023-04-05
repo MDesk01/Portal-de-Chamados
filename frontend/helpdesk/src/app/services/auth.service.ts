@@ -11,6 +11,6 @@ export class AuthService {
   
   
   authenticate(creds: Credenciais){
-    return this.http.post()
+    return this.http.post!()
   }
 }

@@ -28,3 +28,4 @@ export class TecnicoListComponent implements OnInit  {
     this.dataSource.paginator = this.paginator;
   }
 }
+                                                                 
